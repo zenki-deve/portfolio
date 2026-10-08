@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zenki-deve | Full-Stack Developer & Automation Engineer</title>
+    <meta name="description" content="Full-stack web applications, scalable backend microservices, control systems, and automated testing.">
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <link rel="stylesheet" href="style.css?v=2.0">
+</head>
+<body>
+
+    <!-- Ambient Background Effects -->
+    <div class="ambient-glow"></div>
+    <div class="noise-overlay"></div>
+    <div class="grid-bg"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <div class="cursor-text" data-cursor-text></div>
+
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <nav class="dynamic-nav">
+            <a href="#top" class="nav-logo" aria-label="Back to top">
+                <span class="logo-text">ZENKI<span class="accent">DEV</span></span>
+                <div class="logo-glow"></div>
+            </a>
+            <div class="nav-links">
+                <a href="#expertise" class="nav-item" data-hover="Expertise">
+                    <span>Expertise</span>
+                </a>
+                <a href="#work" class="nav-item" data-hover="Work">
+                    <span>Work</span>
+                </a>
+                <a href="#about" class="nav-item" data-hover="About">
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="nav-item" data-hover="Stack">
+                    <span>Stack</span>
+                </a>
+            </div>
+            <a href="mailto:zenki.developer@gmail.com" class="nav-cta magnetic">
+                <span class="cta-dot"></span>
+                <span>Let's Talk</span>
+                <svg class="cta-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                </svg>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="top" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="status-dot"></span>
+                        <span class="badge-text">Full-Stack Web • Go & Python Backend • Control Systems • QA Automation</span>
+                        <span class="badge-arrow">→</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <div class="title-line">
+                            <span class="title-word" data-animation="slide-up">Modern Web Apps,</span>
+                        </div>
+                        <div class="title-line">
+                            <span class="title-word outline" data-animation="slide-up">Robust Backend</span>
+                        </div>
+                        <div class="title-line">
+                            <span class="title-word" data-animation="slide-up">& Automation</span>
+                            <span class="title-accent">.</span>
+                        </div>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        I engineer modern web applications, high-concurrency backend microservices, custom admin/control dashboards, and resilient automation pipelines. From responsive React UIs to Go services and automated bot fleets.
+                    </p>
+
+                    <div class="hero-signals">
+                                                <span>Full-Stack Web & Admin Systems</span>
+                        <span>Go (Fiber) & Python Microservices</span>
+                        <span>QA Test Automation & Scrapers</span>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#work" class="btn-primary magnetic">
+                            <span class="btn-bg"></span>
+                            <span class="btn-text">Selected Work</span>
+                            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/zenki-deve" target="_blank" class="btn-secondary magnetic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="hero-visual">
+                    <div class="terminal-wrapper">
+                        <div class="terminal-window">
+                            <div class="term-header">
+                                <div class="dots">
+                                    <div class="dot r"></div>
+                                    <div class="dot y"></div>
+                                    <div class="dot g"></div>
+                                </div>
+                                <span class="term-title">zenki-deve@runtime ~ monitor</span>
+                            </div>
+                            <div class="term-body" id="terminal-logs"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <!-- Marquee Section -->
+        <section class="marquee-section">
+            <div class="marquee-label">
+                <span>// Capabilities</span>
+            </div>
+            
+            <div class="marquee-container">
+                <div class="marquee-track track-1">
+                    <div class="marquee-content">
+                                                <div class="flex-card">
+                            <div class="flex-icon blue"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Full-Stack Web Apps</div>
+                                <div class="flex-sub">Responsive React & Vite</div>
+                            </div>
+                        </div>
+                        <div class="flex-card prominent">
+                            <div class="flex-icon black"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Backend Architecture</div>
+                                <div class="flex-sub">Fiber, FastAPI & gRPC</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon purple"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Management & Control Systems</div>
+                                <div class="flex-sub">Admin dashboards & CMS</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon red"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">QA & Test Automation</div>
+                                <div class="flex-sub">Playwright, Pytest & Selenium</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon green"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Distributed Task Queues</div>
+                                <div class="flex-sub">Celery, Asynq & Streams</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon orange"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">High-Load Scraping</div>
+                                <div class="flex-sub">curl_cffi, TLS JA4 & Proxies</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="marquee-track track-2">
+                    <div class="marquee-content">
+                                                <div class="flex-card">
+                            <div class="flex-icon cyan"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">API & WebSockets</div>
+                                <div class="flex-sub">REST, gRPC & Real-time</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon pink"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Browser Bots & Emulators</div>
+                                <div class="flex-sub">BAS, Pyppeteer & Zenno</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon teal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">Databases & ORM</div>
+                                <div class="flex-sub">Postgres, GORM & Mongo</div>
+                            </div>
+                        </div>
+                        <div class="flex-card">
+                            <div class="flex-icon yellow"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                            <div class="flex-info">
+                                <div class="flex-title">DevOps & Observability</div>
+                                <div class="flex-sub">Docker Compose & Prometheus</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="section-label">
+                        <span class="label-number">01</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">EXPERTISE</span>
+                    </span>
+                    <h2 class="section-title">Engineered for performance. Built for full control.</h2>
+                    <p class="section-desc">I combine end-to-end web application development and backend architecture with advanced QA automation, control dashboards, and high-throughput data processing.</p>
+                </div>
+
+                <div class="dual-grid reveal-on-scroll">
+                    <div class="dual-col dark">
+                        <div class="dual-content">
+                            <div class="icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            </div>
+                            <span class="dual-label">THE UNDERGROUND</span>
+                            <h3>Automation, QA & Scraping</h3>
+                            
+                            <ul class="dual-list">
+                                                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Automated E2E & API test suites with <strong>Playwright, Pytest, Selenium & Pyppeteer</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Anti-bot bypass & scraping pipelines using <strong>curl_cffi, TLS JA3/JA4 emulation & proxies</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Browser & desktop task automation via <strong>BAS (Browser Automation Studio) & ZennoPoster</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Custom <strong>Telegram API & Discord API</strong> automated workflows & bot fleets</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="dual-footer">
+                                <div class="tech-pills">
+                                                                        <span>Playwright</span>
+                                    <span>Pytest</span>
+                                    <span>Selenium</span>
+                                    <span>curl_cffi</span>
+                                    <span>BAS</span>
+                                    <span>ZennoPoster</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dual-col light">
+                        <div class="dual-content">
+                            <div class="icon-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                            </div>
+                            <span class="dual-label">THE SURFACE</span>
+                            <h3>Full-Stack, Backend & Control Systems</h3>
+
+                            <ul class="dual-list">
+                                                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">High-concurrency microservices, gRPC & WebSockets in <strong>Go (Fiber) & Python (FastAPI)</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Distributed task queues & asynchronous workers with <strong>Celery, Asynq & Redis Streams</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Custom <strong>Admin Panels, CMS/CRM platforms & Management Control Systems</strong></span>
+                                </li>
+                                <li>
+                                    <span class="list-icon">→</span>
+                                    <span class="list-text">Persistence & telemetry with <strong>PostgreSQL, GORM, SQLAlchemy, Docker Compose & Prometheus</strong></span>
+                                </li>
+                            </ul>
+                            
+                            <div class="dual-footer">
+                                <div class="tech-pills dark">
+                                                                        <span>Go (Fiber)</span>
+                                    <span>FastAPI</span>
+                                    <span>gRPC</span>
+                                    <span>PostgreSQL</span>
+                                    <span>GORM</span>
+                                    <span>Docker Compose</span>
+                                    <span>Prometheus</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="work" class="section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="section-label">
+                        <span class="label-number">02</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">SELECTED WORK</span>
+                    </span>
+                    <h2 class="section-title">Selected work.<br><span class="gradient-text">Built with intent.</span></h2>
+                </div>
+
+                <div class="projects-showcase reveal-on-scroll">
+                                        <article class="project-card featured" data-cursor="View Project">
+                        <div class="project-image">
+                            <div class="project-image-featured">
+                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/texttoimages-featured.png" alt="TextToImages" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2026</span>
+                                <span class="project-type">Text-to-Handwriting & Document Engine</span>
+                            </div>
+                            <h3>TextToImages</h3>
+                            <p>An advanced text-to-handwriting synthesis platform that converts digital typed text into realistic handwritten documents on custom paper styles. Features natural pen variations, line irregularity, margins control, and export to finished high-resolution pages.</p>
+                            <div class="project-tags">
+                                                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Handwriting Synthesis</span>
+                                <span>Document Processing</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <span>Visit Website</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="projects-grid">
+                                                <article class="project-card" data-cursor="View">
+                            <div class="project-number">01</div>
+                            <div class="project-image-small">
+                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/texttoimages-web.png" alt="Interactive Web Editor & Live Studio" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="project-content">
+                                <h3>Interactive Web Editor & Live Studio</h3>
+                                <p>Feature-rich web editor for handwriting synthesis. Provides real-time typing input, customizable handwriting fonts, ink colors, margins, paper styles (grid, ruled, blank), and instant live page preview.</p>
+                                <div class="project-tags">
+                                                                        <span>React</span>
+                                    <span>TypeScript</span>
+                                    <span>Vite</span>
+                                    <span>Tailwind</span>
+                                    <span>Live Preview</span>
+                                </div>
+                            </div>
+                            <div class="project-links-small">
+                                                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer" class="project-arrow" title="Visit Website">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                                </a>
+
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-cursor="View">
+                            <div class="project-number">02</div>
+                            <div class="project-image-small">
+                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/texttoimages-phone.png" alt="Mobile-First Adaptive Design & UI" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="project-content">
+                                <h3>Mobile-First Adaptive Design & UI</h3>
+                                <p>Fully responsive mobile experience crafted for phones and tablets. Highlights seamless adaptation from the landing page to the touch-optimized mobile editor with complete feature parity.</p>
+                                <div class="project-tags">
+                                                                        <span>Mobile-First</span>
+                                    <span>Responsive UI</span>
+                                    <span>Adaptive Layout</span>
+                                    <span>Touch Controls</span>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                            <div class="project-links-small">
+                                                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer" class="project-arrow" title="Visit Website">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                                </a>
+
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-cursor="View">
+                            <div class="project-number">03</div>
+                            <div class="project-image-small">
+                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer">
+                                    <img src="assets/texttoimages-api.png" alt="High-Performance Pipeline & Generation History" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="project-content">
+                                <h3>High-Performance Pipeline & Generation History</h3>
+                                <p>High-throughput asynchronous rendering engine paired with instant generation history. Built for rapid multi-page handwriting synthesis, low latency, archive tracking, and high-DPI document export.</p>
+                                <div class="project-tags">
+                                                                        <span>FastAPI</span>
+                                    <span>High Performance</span>
+                                    <span>Generation History</span>
+                                    <span>Async Pipeline</span>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                            <div class="project-links-small">
+                                                                <a href="https://texttoimages.pro/" target="_blank" rel="noopener noreferrer" class="project-arrow" title="Visit Website">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                                </a>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid reveal-on-scroll">
+                                        <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-plus">+</span>
+                        </div>
+                        <span class="stat-text">Years Engineering Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-plus">%</span>
+                        </div>
+                        <span class="stat-text">Quality & Test Reliability</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" data-target="99.9">0</span>
+                            <span class="stat-plus">%</span>
+                        </div>
+                        <span class="stat-text">Backend Uptime</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-plus">x</span>
+                        </div>
+                        <span class="stat-text">Process Automation Speedup</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="section-label">
+                        <span class="label-number">03</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">BACKGROUND</span>
+                    </span>
+                    <h2 class="section-title">Engineering full-stack solutions with precision.</h2>
+                </div>
+                
+                <div class="about-grid reveal-on-scroll">
+                    <div class="about-content">
+                        <p class="about-lead">
+                            Specializing in <strong>Full-Stack Web Development</strong>, <strong>Backend Systems</strong>, <strong>Management Dashboards</strong>, and <strong>Automated Testing</strong>.
+                        </p>
+                        <div class="about-text">
+                                                        <p>My engineering mindset grew from deep technical curiosity—combining full-stack web development with system automation, network reverse-engineering, and anti-bot bypass strategies.</p>
+                            <p>Working across network protocols and browser rendering engines gave me a unique advantage: I build frontend websites and control systems that are visually clean and intuitive, backed by resilient Go & Python backend microservices engineered to handle real-world traffic.</p>
+                            <p>Whether developing a custom Web/Admin Management Dashboard, building a high-concurrency Go microservice, or deploying a Playwright QA test suite, I focus on clean code, robust architecture, and maximum efficiency.</p>
+                        </div>
+                        
+                        <div class="about-cta">
+                            <a href="mailto:zenki.developer@gmail.com" class="btn-primary magnetic">
+                                <span class="btn-bg"></span>
+                                <span class="btn-text">Get in Touch</span>
+                                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="code-window">
+                            <div class="window-header">
+                                <div class="window-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="window-title">philosophy.ts</span>
+                            </div>
+                            <div class="window-content">
+                                <pre><code><span class="line-num"> 1</span> <span class="kwd">interface</span> <span class="type">Engineer</span> {
+<span class="line-num"> 2</span>   <span class="prop">web</span>: [<span class="str">"React"</span>, <span class="str">"TypeScript"</span>, <span class="str">"Tailwind"</span>];
+<span class="line-num"> 3</span>   <span class="prop">backend</span>: [<span class="str">"Go (Fiber)"</span>, <span class="str">"FastAPI"</span>, <span class="str">"gRPC"</span>, <span class="str">"WebSockets"</span>];
+<span class="line-num"> 4</span>   <span class="prop">data</span>: [<span class="str">"PostgreSQL"</span>, <span class="str">"Redis Streams"</span>, <span class="str">"GORM"</span>, <span class="str">"SQLAlchemy"</span>];
+<span class="line-num"> 5</span>   <span class="prop">automation</span>: [<span class="str">"Playwright"</span>, <span class="str">"Pytest"</span>, <span class="str">"Selenium"</span>, <span class="str">"Anti-Bot (TLS)"</span>];
+<span class="line-num"> 6</span> }
+<span class="line-num"> 7</span> 
+<span class="line-num"> 8</span> <span class="kwd">const</span> Dev: <span class="type">Engineer</span> = {
+<span class="line-num"> 9</span>   <span class="prop">web</span>: [<span class="str">"React"</span>, <span class="str">"TypeScript"</span>, <span class="str">"Tailwind"</span>],
+<span class="line-num">10</span>   <span class="prop">backend</span>: [<span class="str">"Go (Fiber)"</span>, <span class="str">"FastAPI"</span>, <span class="str">"gRPC"</span>, <span class="str">"WebSockets"</span>],
+<span class="line-num">11</span>   <span class="prop">data</span>: [<span class="str">"PostgreSQL"</span>, <span class="str">"Redis Streams"</span>, <span class="str">"GORM"</span>, <span class="str">"SQLAlchemy"</span>],
+<span class="line-num">12</span>   <span class="prop">automation</span>: [<span class="str">"Playwright"</span>, <span class="str">"Pytest"</span>, <span class="str">"Selenium"</span>, <span class="str">"Anti-Bot (TLS)"</span>]
+<span class="line-num">13</span> };
+<span class="line-num">14</span> 
+<span class="line-num">15</span> <span class="cmt">// Design intuitive web interfaces,</span>
+<span class="line-num">16</span> <span class="cmt">// build bulletproof backend systems,</span>
+<span class="line-num">17</span> <span class="cmt">// automate complex workflows.</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="section-label">
+                        <span class="label-number">04</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">STACK</span>
+                    </span>
+                    <h2 class="section-title">Tools I use.<br><span class="gradient-text">Chosen for delivery.</span></h2>
+                </div>
+                
+                <div class="skills-container reveal-on-scroll">
+                                        <div class="skills-category">
+                        <h4 class="category-title">Languages</h4>
+                        <div class="skills-row">
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go"></div>
+                                <span>Go</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"></div>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4 class="category-title">Backend & Distributed Systems</h4>
+                        <div class="skills-row">
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #00ACD7"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                                <span>Fiber</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI"></div>
+                                <span>FastAPI</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg" alt="gRPC"></div>
+                                <span>gRPC</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #2563EB"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16M5 19a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg></div>
+                                <span>WebSockets</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></div>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis & Streams"></div>
+                                <span>Redis & Streams</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #00ADD8"><path d="M4 6c0-1.66 3.58-3 8-3s8 1.34 8 3v12c0 1.66-3.58 3-8 3s-8-1.34-8-3V6zm0 4c0 1.66 3.58 3 8 3s8-1.34 8-3M4 14c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg></div>
+                                <span>GORM</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" alt="SQLAlchemy"></div>
+                                <span>SQLAlchemy</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #37814A"><path d="M2.303 0A2.298 2.298 0 0 0 0 2.303v19.394A2.298 2.298 0 0 0 2.303 24h19.394A2.298 2.298 0 0 0 24 21.697V2.303A2.298 2.298 0 0 0 21.697 0zm8.177 3.072c4.098 0 7.028 1.438 7.68 1.764l-1.194 2.55c-2.442-1.057-4.993-1.41-5.672-1.41-1.574 0-2.17.922-2.17 1.763v8.494c0 .869.596 1.791 2.17 1.791.679 0 3.23-.38 5.672-1.41l1.194 2.496c-.435.271-3.637 1.818-7.68 1.818-1.112 0-4.64-.244-4.64-4.64V7.713c0-4.397 3.528-4.64 4.64-4.64z"/></svg></div>
+                                <span>Celery & Asynq</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4 class="category-title">QA, Web Automation & Anti-Bot</h4>
+                        <div class="skills-row">
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" alt="Playwright"></div>
+                                <span>Playwright</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" alt="Pytest"></div>
+                                <span>Pytest</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium"></div>
+                                <span>Selenium</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/puppeteer/puppeteer-original.svg" alt="Pyppeteer"></div>
+                                <span>Pyppeteer</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #E11D48"><path d="M12 2a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4V4a2 2 0 0 1 2-2zm-4 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm8 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-7 6h6v1H9v-1z"/></svg></div>
+                                <span>BAS</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #10B981"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 15l-4-4 1.41-1.41L11 13.17l5.59-5.59L18 9l-7 7z"/></svg></div>
+                                <span>TLS Anti-Bot & curl_cffi</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #FF5722"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+                                <span>ZennoPoster</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4 class="category-title">DevOps & Observability</h4>
+                        <div class="skills-row">
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Compose"></div>
+                                <span>Docker Compose</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus"></div>
+                                <span>Prometheus</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana"></div>
+                                <span>Grafana</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="Nginx"></div>
+                                <span>Nginx</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"></div>
+                                <span>Linux</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Actions"></div>
+                                <span>GitHub Actions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h4 class="category-title">Frontend & Web</h4>
+                        <div class="skills-row">
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite"></div>
+                                <span>Vite</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="color: #38BDF8"><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg></div>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item magnetic">
+                                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content reveal-on-scroll">
+                    <span class="cta-label">Need a fast, polished product?</span>
+                    <h2 class="cta-title">Let's build<br>something sharp.</h2>
+                    <a href="mailto:zenki.developer@gmail.com" class="cta-email magnetic" data-cursor="Send Email">
+                        <span>zenki.developer@gmail.com</span>
+                    </a>
+                    <div class="cta-socials">
+                        <a href="https://github.com/zenki-deve" target="_blank" rel="noopener noreferrer" class="social-link magnetic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bohdan-myroshnyk-b64673342/" target="_blank" rel="noopener noreferrer" class="social-link magnetic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://t.me/zenki_portfolio" target="_blank" rel="noopener noreferrer" class="social-link magnetic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <div class="footer-logo">ZENKI<span class="accent">DEV</span></div>
+                        <p class="footer-tagline">Full-stack web applications, scalable backend microservices, control systems, and automated testing.</p>
+                    </div>
+                    <div class="footer-right">
+                        <p class="footer-copyright">© 2026 Zenki | Software & Automation Engineer</p>
+                        <p class="footer-location">Kyiv, Ukraine</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="main.js?v=2.0"></script>
+</body>
+</html>
