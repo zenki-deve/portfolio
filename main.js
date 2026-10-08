@@ -229,23 +229,19 @@ const logsContainer = document.getElementById('terminal-logs');
 if (logsContainer) {
     const logs = [
         {
-                "text": "$ npm run build --prefix web-app",
+                "text": "$ python3 -m scrapers.catalog --targets=steam,xbox,psn,funpay,ggsel",
                 "color": "#8B949E",
                 "delay": 100
         },
         {
-                "text": "> Vite: React dashboard & WebApp bundled [1.8s]",
+                "text": "> TLS Fingerprint: Chrome JA4 | curl_cffi pool: 50 active IPv4",
                 "color": "#60A5FA",
-                "delay": 300
+                "delay": 250
         },
         {
-                "text": "$ go run cmd/server/main.go --env=production",
-                "color": "#8B949E",
-                "delay": 400
-        },
-        {
-                "text": "[200 OK] Fiber microservices & WebSocket gateway live on :8080",
+                "text": "[200 OK] 34,200 catalog listings indexed across 5 platforms",
                 "color": "#10B981",
+                "bold": true,
                 "delay": 200
         },
         {
@@ -274,10 +270,9 @@ if (logsContainer) {
                 "delay": 600
         },
         {
-                "text": "[PASSED] 142/142 test scenarios verified cleanly",
+                "text": "[HEALTHY] Session tokens rotated | Zero rate-limit flags",
                 "color": "#10B981",
-                "bold": true,
-                "delay": 250
+                "delay": 150
         },
         {
                 "text": "$ python3 -m bot_fleet --start-proxies --tls-emulate=ja4",
@@ -293,18 +288,23 @@ if (logsContainer) {
                 "text": "[SUCCESS] Akamai & Cloudflare protections bypassed",
                 "color": "#10B981",
                 "bold": true,
-                "delay": 250
+                "delay": 200
         },
         {
-                "text": "> ZennoDroid Engine: 8 mobile emulators synced",
+                "text": "$ bash scripts/deploy_proxy_nodes.sh --subnet=ipv4_private",
+                "color": "#8B949E",
+                "delay": 350
+        },
+        {
+                "text": "> Linux Server Rack: IPv4 proxy nodes provisioned & authenticated",
                 "color": "#60A5FA",
-                "delay": 300
+                "delay": 200
         },
         {
-                "text": "> Telegram Webhook Listener & Live Telemetry: ONLINE",
+                "text": "> Telegram Ops Bot: Telemetry stream online (Prometheus + Grafana)",
                 "color": "#10B981",
                 "bold": true,
-                "delay": 200
+                "delay": 150
         }
 ];
 
